@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+.header{
+    background-color: #292828;
+    z-index: -1;
+}
+.font{
+    font-size: 50px;
+}
+.second{
+    background-color:#5e5b5b;
+}
+.A{
+    font-size: 100px;
+    font-weight: bold;
+    color:black;
+    opacity: 0.1;
+}
+.about{
+    color: #c9c5c5;
+}
