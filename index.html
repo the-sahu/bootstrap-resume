@@ -7,31 +7,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+  <!-- custom css -->
+  <link rel="stylesheet" href="scss/custom.css">
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- font awesome icons cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- main css -->
   <link rel="stylesheet" href="main.css">
-
-  <title>Abhishek Sahu</title>
+<title>Abhishek Sahu</title>
 </head>
 
 <body class="bg-light">
-  <div class="py-1 bg-warning"></div>
-  <section>
-    <div class="container bg-white">
+  <div class="py-1  bg-warning"></div>
+  <section class="">
+    <div class=" halftone container bg-white">
       <div class="row">
         <div class="col-12">
-          <button class="btn btn-tertiary btn-sm mt-3 badge-pill float-right rounded-lg transparent">Contact me</button>
+          <!-- <button type="button" class="btn btn-tertiary btn-sm mt-3 badge-pill float-right rounded-lg transparent"> <a href="#contactid"></a> Contact me</button> -->
+          <a href="#contactid" class="btn btn-warning btn-sm mt-3 badge-pill float-right rounded-lg shadow-lg">Contact me</a> 
         </div>
-        <div class="col-12 mt-5  d-flex justify-content-between align-items-center">
-          <div class="col-8">
-            <h1 class="display-4 font-weight-bold my-5 offset-1">Greetings!<br>I'm Abhishek Sahu</h1>
-          </div>
-          <div class="col-4">
-            <img src="./img/abhi.jpg" class="rounded-circle hero" width="80%" alt="abhishek photo">
+        <div class="col-12 col-lg-12 mt-5">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-8 col-sm-12">
+              <h1 class="display-4 font-weight-bold mt-5 offset-1">Greetings!<br>I'm Abhishek Sahu</h1>
+              <p class="h3 font-weight-medium text-secondary mb-5 offset-1"><i>-Frontend Developer</i></p>
+            </div>
+            <div class="col-lg-3 mx-auto col-sm-12">
+              <img src="./img/abhi.jpg" class="rounded-circle hero" width="100%" alt="abhishek photo">
+            </div>
           </div>
         </div>
         <div class="col-10 mx-auto my-5">
@@ -48,29 +52,44 @@
   <section>
     <div class="container bg-white pb-5">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <h1 class="h1 text-center my-5 font-weight-bold">My Technology Stack</h1>
         </div>
-        <div class="col-12 d-flex justify-content-around align-items-center">
-          <div class="col-3">
-            <img src="./img/laravel.png" width="200" alt="">
-            <p class="lead font-weight-bold mt-5">Laravel</p>
-          </div>
-          <div class="col-3">
-            <img src="./img/bootstrap.png" width="200" class="mx-auto" alt="">
-            <p class="lead font-weight-bold mt-5">Bootstrap</p>
-          </div>
-          <div class="col-3">
-            <img src="./img/photoshop.png" width="150px" class="mx-auto" alt="">
-            <p class="lead font-weight-bold mt-5">Photoshop</p>
-          </div>
-          <div class="col-3">
-            <img src="./img/adobe-xd-logo-png-transparent.png" class="mx-auto" width="60%" alt="">
-            <p class=" lead font-weight-bold mt-5">Adobe XD</p>
+        </div>
+        <div class="col-sm-12">
+          <div class="row">
+              <div class="col-lg-6 col-sm-12 d-flex justify-content-between  align-items-center">
+                <div class="col-6">
+                  <div class="mx-auto text-center">
+                    <img class="p-2" src="./img/laravel.png" class="mt-4" width="150px" alt="">
+                  <p class="h5  font-weight-bold mt-2">Laravel</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="mx-auto text-center">
+                    <img class="p-2" src="./img/bootstrap.png" width="150px" alt="">
+                  <p class="h5 font-weight-bold mt-2">Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+           
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+              <div class="col-6">
+                <div class="mx-auto text-center">
+                  <img class="p-2" src="./img/photoshop.png" width="150px" alt="">
+                <p class="h5 font-weight-bold mt-2">Photoshop</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mx-auto text-center">
+                  <img class="p-2" src="./img/adobe-xd-logo-png-transparent.png"  width="150px" alt="">
+                <p class="h5 font-weight-bold mt-2">Adobe XD</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+        </div>
   </section>
   <section>
     <div class="container bg-warning">
@@ -78,7 +97,7 @@
         <div class="col-12">
           <h1 class="text-center font-weight-bold my-5">My Skills</h1>
         </div>
-        <div class="col-12 mb-5">
+        <div class="col-lg-12 col-md-12 col-sm-6 mb-5">
           <div class="card">
             <div class="card-body">
               <h3 class="h5">About me</h3>
@@ -90,55 +109,57 @@
     </div>
   </section>
   <section>
-    <div class="container bg-white">
+    <div class="container bg-white pb-5">
       <div class="row">
         <h1 class="h1 mx-auto mt-5 font-weight-bold">Education</h1>
-        <div class="col-12 d-flex justify-content-between align-items-center mt-5">
-          <div class="col-4">
-            <div class="card">
+      </div>
+      <div class="col-lg-12 d-flex justify-content-between align-items-center mt-3">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card hocard my-3">
               <div class="card-body p-4">
-               <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
                 <div>
                   <h3 class="h4 font-weight-bold">10th</h3>
-                <h1 class="display-4 text-secondary font-weight-bold">86<span class="h2 font-weight-bold">%</span></h1>
+                <h1 class="display-4 text-secondary font-weight-bold">78<span class="h2 font-weight-bold">%</span></h1>
                 </div>
                 <div>
                   <i class="fa fa-5x fa-university"></i>
                 </div>
-               </div>
+                </div>
                 <p class="">From M.P.V.N.Hr.Sec.School, Indore(M.P.) <i>-2015</i></p>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
+          <div class="col-lg-4  col-sm-12">
+            <div class="card hocard my-3">
               <div class="card-body p-4">
-               <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <h3 class="h4 font-weight-bold">10th</h3>
-                <h1 class="display-4 text-secondary font-weight-bold">86<span class="h2 font-weight-bold">%</span></h1>
+                  <h3 class="h4 font-weight-bold">12th</h3>
+                <h1 class="display-4 text-secondary font-weight-bold">72<span class="h2 font-weight-bold">%</span></h1>
                 </div>
                 <div>
                   <i class="fa fa-5x fa-university"></i>
                 </div>
-               </div>
-                <p class="">From M.P.V.N.Hr.Sec.School, Indore(M.P.) <i>-2015</i></p>
+                </div>
+                <p class="">From M.P.V.N.Hr.Sec.School, Indore(M.P.) <i>-2017</i></p>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
+          <div class="col-lg-4  col-sm-12 ">
+            <div class="card hocard my-3">
               <div class="card-body p-4">
-               <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <h3 class="h4 font-weight-bold">10th</h3>
-                <h1 class="display-4 text-secondary font-weight-bold">86<span class="h2 font-weight-bold">%</span></h1>
+                  <h3 class="h4 font-weight-bold">B.Tech</h3>
+                <h1 class="display-4 text-secondary font-weight-bold">70<span class="h2 font-weight-bold">%</span></h1>
                 </div>
                 <div>
-                  <i class="fa fa-5x fa-university"></i>
+                  <i class="fa fa-5x fa-graduation-cap"></i>
                 </div>
-               </div>
-                <p class="">From M.P.V.N.Hr.Sec.School, Indore(M.P.) <i>-2015</i></p>
+                </div>
+                <p class="">From RJPV University bhopal(M.P) <i>-purcuing</i></p>
               </div>
             </div>
           </div>
@@ -147,17 +168,82 @@
     </div>
   </section>
 
-  <!-- Optional JavaScript -->
+  <!-- contact me page start -->
+  
+  <section>
+    <div class="container pb-5 bg-warning" id="contactid">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div>
+                  <h3 class="font-weight-bold mt-5 ml-4">Language</h3>
+                  <ul class="my-3">
+                   <li>Hindi</li>
+                   <li class="mt-2">English</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="font-weight-bold mt-5 ml-4">Sidelines</h3>
+                  <ul class="my-3">
+                    <li>listening music</li>
+                    <li class="mt-2">Learning New Technologies</li>
+                    <li class="mt-2">Chess</li>
+                  </ul>
+                </div>
+               </div>
+               <div class="col-lg-7 col-md-6 col-sm-12">
+                <div class="text-center ">
+                  <div class="card hocard mt-5">
+                    <div class="card-body p-4">
+                     <div class="justify-content-between align-items-center">
+                      <div>
+                        <h3 class="text-center font-weight-bold border-bottom pb-3">Contact me</h3>
+                        <div>
+                          <img src="./img/sahu.jpg" class=" mt-3 rounded-circle" width="110px" height="100px" alt="">
+                        </div >
+                          <p class=" mt-3 font-weight-bold"><span>+91 7024973567</span></p>
+                          <p class="font-weight-bold"><span>abhiasabhi143@gmail.com</span></p>
+                          <p class="font-weight-bold"><span>342, vaibhav laxmi nagar,indore(M.P)</span></p>
+                       </div>
+                      <hr>
+                      <div class=" row d-flex">
+                        <div class="col-sm-12 d-flex justify-content-around align-items-center">
+                          <div class="col-sm-6 col-lg-3">
+                          <h5>follow me</h5>
+                        </div>
+                         <div class="col-sm-6 col-lg-4 d-flex justify-content-between align-items-center">
+                           <div class="p-2 "><a href="tel:+917470407696" style="color:gray; "><i class="fa fa-2x fa-whatsapp"> </i></a></div>
+                           <div class="p-2 "><i class=" fa fa-2x fa-facebook" style="color:gray;" ></i></div>
+                           <div class=" p-2 "><i class="fa fa-2x fa-instagram" style="color:gray;"></i></div>
+                      </div>
+                        </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+                </div>
+               </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+  <div class="container-fluid bg-dark py-3">
+    <p class="text-center text-light"> Designed & Developed with <img src="./img/heart.gif" width="30px" alt=""> by <br> Abhishek Sahu<br>
+ Desclaimer: Logos shown on this website are intelectual properties of their respective owners.</p>
+
+
+  </div>
+  </footer>
+  
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

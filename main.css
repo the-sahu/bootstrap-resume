@@ -1,8 +1,36 @@
+html{
+scroll-behavior:smooth;
+}
+
+.halftone{
+    background-image: url(./img/up.jpg);
+    background-repeat: repeat-x;
+    background-size: 300px;
+    background-blend-mode:darken ;
+    z-index: -2;
+    opacity: 2;
+}
 .card{
     border-radius: 10px;
+    background: #fcfcfc;
     box-shadow: 0px 5px 10px rgb(121, 119, 119, 0.2),0px 5px 10px rgb(121, 119, 119, 0.2);
 }
 .hero{
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
+        box-shadow: rgb(158, 158, 158) 0px 5px 10px 0px ;
+        box-sizing: border-box;
+}
+/* .lara{
+    margin-top: 55px !important;
+} */
+.facebook{
+    border-radius: 50% !important;
+}
+.hocard:hover {
+background-color: #ffffff;
+transform: translate(0px,-10px);
+box-shadow: 0px 5px 10px rgb(121, 119, 119, 0.3),0px 5px 10px rgb(121, 119, 119, 0.2);
+transition-duration: 0.5s;
+
 }

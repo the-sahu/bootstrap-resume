@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-resume",
+  "version": "1.0.0",
+  "description": "This is a simple resume website built using bootstrap 4.5. \r visit the site live at https://the-sahu.github.io/bootstrap-resume/",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-sahu/bootstrap-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-sahu/bootstrap-resume/issues"
+  },
+  "homepage": "https://github.com/the-sahu/bootstrap-resume#readme"
+}
